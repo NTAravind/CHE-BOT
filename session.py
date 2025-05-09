@@ -1,6 +1,6 @@
 from instagrapi import Client
-
+import os
 cl = Client()
-cl.login("infini.io", "cherryaravind")  # It will ask for OTP here
+cl.login("pytestinfini","cherryaravind")
 cl.dump_settings("session.json")
 
